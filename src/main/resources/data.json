@@ -1,0 +1,326 @@
+[
+  {
+    "sku": "G10000",
+    "brand": "Ridgid",
+    "price": 125.86,
+    "category1": "Automotive",
+    "category2": "Car Accessories",
+    "category3": "Jump Starters",
+    "category4": "",
+    "category5": "",
+    "attributes": [
+      "Voltage: 12V",
+      "Weight: 5.04 lbs",
+      "Material: Aluminum"
+    ],
+    "discontinued": false,
+    "description": "High-quality Jump Starters from Ridgid",
+    "model_number": "MDL-1000",
+    "tags": [
+      "jump starters",
+      "high quality",
+      "durable"
+    ],
+    "crossReferencePartNumber": [
+      "CRP-3365"
+    ],
+    "unit_of_measurement": "Each",
+    "weight":"6.94 lbs",
+    "dimensions": "15.0 x 11.5 x 10.8 inches",
+    "color": "Red",
+    "material": "Metal",
+    "availability": "Limited Stock",
+    "min_order_quantity": 1,
+    "max_order_quantity": 6,
+    "warranty": "2 years",
+    "country_of_origin": "China"
+  },
+  {
+    "sku": "G10001",
+    "brand": "DeWalt",
+    "price": 466.82,
+    "category1": "Office Supplies",
+    "category2": "Storage",
+    "category3": "Filing Cabinets",
+    "category4": "",
+    "category5": "",
+    "attributes": [
+      "Voltage: 18V",
+      "Weight: 8.43 lbs",
+      "Material: Aluminum"
+    ],
+    "discontinued": true,
+    "description": "High-quality Filing Cabinets from Craftsman",
+    "model_number": "MDL-1001",
+    "tags": [
+      "filing cabinets",
+      "high quality",
+      "durable"
+    ],
+    "crossReferencePartNumber": [
+      "CRP-9428"
+    ],
+    "unit_of_measurement": "Each",
+    "weight": "14.62 lbs",
+    "dimensions": "16.8 x 13.0 x 12.8 inches",
+    "color": "Black",
+    "material": "Rubber",
+    "availability": "Limited Stock",
+    "min_order_quantity": 1,
+    "max_order_quantity": 12,
+    "warranty": "5 years",
+    "country_of_origin": "Mexico"
+  },
+  {
+    "sku": "G10002",
+    "brand": "DeWalt",
+    "price": 204.22,
+    "category1": "Industrial",
+    "category2": "Safety Equipment",
+    "category3": "Gloves",
+    "category4": "",
+    "category5": "",
+    "attributes": [
+      "Voltage: 20V",
+      "Weight: 6.46 lbs",
+      "Material: Aluminum"
+    ],
+    "discontinued": true,
+    "description": "High-quality Gloves from Milwaukee",
+    "model_number": "MDL-1002",
+    "tags": [
+      "gloves",
+      "high quality",
+      "durable"
+    ],
+    "crossReferencePartNumber": [
+      "CRP-8657"
+    ],
+    "unit_of_measurement": "Each",
+    "weight": "6.53 lbs",
+    "dimensions": "16.7 x 13.7 x 9.9 inches",
+    "color": "Black",
+    "material": "Rubber",
+    "availability": "Limited Stock",
+    "min_order_quantity": 1,
+    "max_order_quantity": 17,
+    "warranty": "3 years",
+    "country_of_origin": "Germany"
+  },
+  {
+    "sku": "G10003",
+    "brand": "Bosch",
+    "price": 165.55,
+    "category1": "Office Supplies",
+    "category2": "Storage",
+    "category3": "Filing Cabinets",
+    "category4": "",
+    "category5": "",
+    "attributes": [
+      "Voltage: 12V",
+      "Weight: 4.39 lbs",
+      "Material: Plastic"
+    ],
+    "discontinued": false,
+    "description": "High-quality Filing Cabinets from DeWalt",
+    "model_number": "MDL-1003",
+    "tags": [
+      "filing cabinets",
+      "high quality",
+      "durable"
+    ],
+    "crossReferencePartNumber": [
+      "CRP-7253"
+    ],
+    "unit_of_measurement": "Each",
+    "weight": "1.72 lbs",
+    "dimensions": "9.4 x 13.0 x 10.6 inches",
+    "color": "Silver",
+    "material": "Steel",
+    "availability": "In Stock",
+    "min_order_quantity": 1,
+    "max_order_quantity": 12,
+    "warranty": "5 years",
+    "country_of_origin": "Canada"
+  },
+  {
+    "sku": "G10004",
+    "brand": "Hitachi",
+    "price": 89.81,
+    "category1": "Tools",
+    "category2": "Power Tools",
+    "category3": "Cordless Drills",
+    "category4": "",
+    "category5": "",
+    "attributes": [
+      "Voltage: 24V",
+      "Weight: 8.27 lbs",
+      "Material: Aluminum"
+    ],
+    "discontinued": true,
+    "description": "High-quality Cordless Drills from Milwaukee",
+    "model_number": "MDL-1004",
+    "tags": [
+      "cordless drills",
+      "high quality",
+      "durable"
+    ],
+    "crossReferencePartNumber": [
+      "CRP-2182"
+    ],
+    "unit_of_measurement": "Each",
+    "weight": "6.79 lbs",
+    "dimensions": "15.9 x 18.0 x 10.6 inches",
+    "color": "Gray",
+    "material": "Aluminum",
+    "availability": "Out of Stock",
+    "min_order_quantity": 1,
+    "max_order_quantity": 20,
+    "warranty": "2 years",
+    "country_of_origin": "USA"
+  },
+  {
+    "sku": "G10005",
+    "brand": "Ridgid",
+    "price": 441.4,
+    "category1": "Electrical",
+    "category2": "Lighting",
+    "category3": "LED Bulbs",
+    "category4": "",
+    "category5": "",
+    "attributes": [
+      "Voltage: 20V",
+      "Weight: 1.7 lbs",
+      "Material: Aluminum"
+    ],
+    "discontinued": false,
+    "description": "High-quality LED Bulbs from Makita",
+    "model_number": "MDL-1005",
+    "tags": [
+      "led bulbs",
+      "high quality",
+      "durable"
+    ],
+    "crossReferencePartNumber": [
+      "CRP-5325"
+    ],
+    "unit_of_measurement": "Each",
+    "weight": "4.74 lbs",
+    "dimensions": "11.7 x 16.9 x 15.4 inches",
+    "color": "Red",
+    "material": "Plastic",
+    "availability": "Limited Stock",
+    "min_order_quantity": 1,
+    "max_order_quantity": 8,
+    "warranty": "1 years",
+    "country_of_origin": "Canada"
+  },
+  {
+    "sku": "G10006",
+    "brand": "Milwaukee",
+    "price": 41.38,
+    "category1": "Tools",
+    "category2": "Hand Tools",
+    "category3": "Wrenches",
+    "category4": "",
+    "category5": "",
+    "attributes": [
+      "Voltage: 12V",
+      "Weight: 8.43 lbs",
+      "Material: Plastic"
+    ],
+    "discontinued": true,
+    "description": "High-quality Wrenches from DeWalt",
+    "model_number": "MDL-1006",
+    "tags": [
+      "wrenches",
+      "high quality",
+      "durable"
+    ],
+    "crossReferencePartNumber": [
+      "CRP-3896"
+    ],
+    "unit_of_measurement": "Each",
+    "weight": "7.23 lbs",
+    "dimensions": "16.2 x 15.9 x 16.9 inches",
+    "color": "Yellow",
+    "material": "Aluminum",
+    "availability": "Limited Stock",
+    "min_order_quantity": 1,
+    "max_order_quantity": 8,
+    "warranty": "3 years",
+    "country_of_origin": "China"
+  },
+  {
+    "sku": "G10007",
+    "brand": "Craftsman",
+    "price": 303.84,
+    "category1": "Outdoor",
+    "category2": "Gardening",
+    "category3": "Lawn Mowers",
+    "category4": "",
+    "category5": "",
+    "attributes": [
+      "Voltage: 24V",
+      "Weight: 9.82 lbs",
+      "Material: Plastic"
+    ],
+    "discontinued": false,
+    "description": "High-quality Lawn Mowers from Makita",
+    "model_number": "MDL-1007",
+    "tags": [
+      "lawn mowers",
+      "high quality",
+      "durable"
+    ],
+    "crossReferencePartNumber": [
+      "CRP-5254"
+    ],
+    "unit_of_measurement": "Each",
+    "weight": "2.0 lbs",
+    "dimensions": "10.0 x 15.0 x 13.8 inches",
+    "color": "Yellow",
+    "material": "Metal",
+    "availability": "In Stock",
+    "min_order_quantity": 1,
+    "max_order_quantity": 11,
+    "warranty": "2 years",
+    "country_of_origin": "Canada"
+  },
+  {
+    "sku": "G10008",
+    "brand": "Craftsman",
+    "price": 206.96,
+    "category1": "Electrical",
+    "category2": "Lighting",
+    "category3": "LED Bulbs",
+    "category4": "",
+    "category5": "",
+    "attributes": [
+      "Voltage: 12V",
+      "Weight: 3.27 lbs",
+      "Material: Plastic"
+    ],
+    "discontinued": true,
+    "description": "High-quality LED Bulbs from Milwaukee",
+    "model_number": "LED-1008",
+    "tags": [
+      "LED bulbs",
+      "energy efficient",
+      "long-lasting"
+    ],
+    "crossReferencePartNumber": [
+      "CRP-6301"
+    ],
+    "unit_of_measurement": "Each",
+    "weight": "3.27 lbs",
+    "dimensions": "5.0 x 5.0 x 10.0 inches",
+    "color": "White",
+    "material": "Plastic",
+    "availability": "Discontinued",
+    "min_order_quantity": 1,
+    "max_order_quantity": 5,
+    "warranty": "1 year",
+    "country_of_origin": "USA"
+  }
+]

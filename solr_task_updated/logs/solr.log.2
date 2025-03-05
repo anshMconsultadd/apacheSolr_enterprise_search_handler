@@ -1,0 +1,75 @@
+2025-02-18 18:23:54.927 INFO  (main) [c: s: r: x:] o.e.j.s.Server jetty-10.0.22; built: 2024-06-27T16:03:51.502Z; git: 5c8471e852d377fd726ad9b1692c35ffc5febb09; jvm 17.0.14+7
+2025-02-18 18:23:55.160 WARN  (main) [c: s: r: x:] o.e.j.u.DeprecationWarning Using @Deprecated Class org.eclipse.jetty.servlet.listener.ELContextCleaner
+2025-02-18 18:23:55.174 INFO  (main) [c: s: r: x:] o.a.s.s.CoreContainerProvider Using logger factory org.apache.logging.slf4j.Log4jLoggerFactory
+2025-02-18 18:23:55.179 INFO  (main) [c: s: r: x:] o.a.s.s.CoreContainerProvider  ___      _       Welcome to Apache Solr™ version 9.8.0
+2025-02-18 18:23:55.179 INFO  (main) [c: s: r: x:] o.a.s.s.CoreContainerProvider / __| ___| |_ _   Starting in cloud mode on port 8983
+2025-02-18 18:23:55.179 INFO  (main) [c: s: r: x:] o.a.s.s.CoreContainerProvider \__ \/ _ \ | '_|  Install dir: /opt/solr-9.8.0
+2025-02-18 18:23:55.179 INFO  (main) [c: s: r: x:] o.a.s.s.CoreContainerProvider |___/\___/_|_|    Start time: 2025-02-18T18:23:55.179906879Z
+2025-02-18 18:23:55.181 INFO  (main) [c: s: r: x:] o.a.s.s.CoreContainerProvider Solr started with "-XX:+CrashOnOutOfMemoryError" that will crash on any OutOfMemoryError exception. The cause of the OOME will be logged in the crash file at the following path: /var/solr/logs/jvm_crash_10.log
+2025-02-18 18:23:55.193 INFO  (main) [c: s: r: x:] o.a.s.s.CoreContainerProvider Solr Home: /var/solr/data (source: system property: solr.solr.home)
+2025-02-18 18:23:55.206 WARN  (main) [c: s: r: x:] o.a.s.c.c.SolrZkClient Using default ZkCredentialsInjector. ZkCredentialsInjector is not secure, it creates an empty list of credentials which leads to 'OPEN_ACL_UNSAFE' ACLs to Zookeeper nodes
+2025-02-18 18:23:55.303 INFO  (main) [c: s: r: x:] o.a.s.c.c.ConnectionManager Waiting up to 30000ms for client to connect to ZooKeeper
+2025-02-18 18:23:55.329 INFO  (zkCallback-1-thread-1) [c: s: r: x:] o.a.s.c.c.ConnectionManager zkClient has connected
+2025-02-18 18:23:55.329 INFO  (main) [c: s: r: x:] o.a.s.c.c.ConnectionManager Client is connected to ZooKeeper
+2025-02-18 18:23:55.330 WARN  (main) [c: s: r: x:] o.a.s.c.c.SolrZkClient Using default ZkACLProvider. DefaultZkACLProvider is not secure, it creates 'OPEN_ACL_UNSAFE' ACLs to Zookeeper nodes
+2025-02-18 18:23:55.449 INFO  (main) [c: s: r: x:] o.a.s.c.NodeConfig Loading solr.xml from SolrHome (not found in ZooKeeper)
+2025-02-18 18:23:55.449 INFO  (main) [c: s: r: x:] o.a.s.c.SolrXmlConfig solr.xml not found in SOLR_HOME, using built-in default
+2025-02-18 18:23:55.449 INFO  (main) [c: s: r: x:] o.a.s.c.SolrXmlConfig Loading solr.xml from /opt/solr-9.8.0/server/solr/solr.xml
+2025-02-18 18:23:55.482 INFO  (main) [c: s: r: x:] o.a.s.c.SolrResourceLoader Added 1 libs to classloader, from paths: [/opt/solr-9.8.0/lib]
+2025-02-18 18:23:55.907 INFO  (main) [c: s: r: x:] o.a.s.u.t.SimplePropagator Always-on trace id generation enabled.
+2025-02-18 18:23:55.983 WARN  (main) [c: s: r: x:] o.a.s.u.StartupLoggingUtils Jetty request logging enabled. Will retain logs for last 3 days. See chapter "Configuring Logging" in reference guide for how to configure.
+2025-02-18 18:23:55.983 INFO  (main) [c: s: r: x:] o.a.s.c.ZkContainer Zookeeper client=zoo:2181
+2025-02-18 18:23:55.988 INFO  (main) [c: s: r: x:] o.a.s.c.DistributedClusterStateUpdater Creating DistributedClusterStateUpdater with useDistributedStateUpdate=false. Solr will be using Overseer based cluster state updates.
+2025-02-18 18:23:55.993 INFO  (main) [c: s: r: x:] o.a.s.c.c.ConnectionManager Waiting up to 15000ms for client to connect to ZooKeeper
+2025-02-18 18:23:55.997 INFO  (zkCallback-14-thread-1) [c: s: r: x:] o.a.s.c.c.ConnectionManager zkClient has connected
+2025-02-18 18:23:55.997 INFO  (main) [c: s: r: x:] o.a.s.c.c.ConnectionManager Client is connected to ZooKeeper
+2025-02-18 18:23:56.071 WARN  (main) [c: s: r: x:] o.a.s.c.ZkController Contents of zookeeper /security.json are world-readable; consider setting up ACLs as described in https://solr.apache.org/guide/solr/latest/deployment-guide/zookeeper-access-control.html
+2025-02-18 18:23:56.089 INFO  (main) [c: s: r: x:] o.a.s.c.DistributedClusterStateUpdater Creating DistributedClusterStateUpdater with useDistributedStateUpdate=false. Solr will be using Overseer based cluster state updates.
+2025-02-18 18:23:56.097 INFO  (main) [c: s: r: x:] o.a.s.c.OverseerElectionContext I am going to be the leader 172.20.0.3:8983_solr
+2025-02-18 18:23:56.103 INFO  (main) [c: s: r: x:] o.a.s.c.Overseer Overseer (id=72058674158108673-172.20.0.3:8983_solr-n_0000000000) starting
+2025-02-18 18:23:56.146 INFO  (main) [c: s: r: x:] o.a.s.c.ZkController Register node as live in ZooKeeper:/live_nodes/172.20.0.3:8983_solr
+2025-02-18 18:23:56.146 INFO  (OverseerStateUpdate-72058674158108673-172.20.0.3:8983_solr-n_0000000000) [c: s: r: x:] o.a.s.c.Overseer Starting to work on the main queue : 172.20.0.3:8983_solr
+2025-02-18 18:23:56.167 INFO  (zkCallback-14-thread-1) [c: s: r: x:] o.a.s.c.c.ZkStateReader Updated live nodes from ZooKeeper... (0) -> (1)
+2025-02-18 18:23:56.208 WARN  (main) [c: s: r: x:] o.a.s.c.CoreContainer Not all security plugins configured!  authentication=disabled authorization=disabled.  Solr is only as secure as you make it. Consider configuring authentication/authorization before exposing Solr to users internal or external.  See https://s.apache.org/solrsecurity for more info
+2025-02-18 18:23:56.456 INFO  (main) [c: s: r: x:] o.a.s.c.CorePropertiesLocator Found 1 core definitions underneath /var/solr/data
+2025-02-18 18:23:56.457 INFO  (main) [c: s: r: x:] o.a.s.c.CorePropertiesLocator Cores are: [product_shard1_replica_n1]
+2025-02-18 18:23:56.463 INFO  (coreLoadExecutor-23-thread-1-processing-172.20.0.3:8983_solr) [c:product s:shard1 r:core_node2 x:product_shard1_replica_n1] o.a.s.c.c.ZkStateReader /collections/product/state.json is deleted, stop watching children
+2025-02-18 18:23:56.559 WARN  (main) [c: s: r: x:] o.g.j.m.i.MessagingBinders A class jakarta.activation.DataSource for a default provider MessageBodyWriter<jakarta.activation.DataSource> was not found. The provider is not available.
+2025-02-18 18:23:56.739 INFO  (main) [c: s: r: x:] o.a.s.j.SolrRequestAuthorizer Creating a new SolrRequestAuthorizer
+2025-02-18 18:23:56.821 INFO  (main) [c: s: r: x:] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@46ab18da{solr-jetty-context.xml,/solr,file:///opt/solr-9.8.0/server/solr-webapp/webapp/,AVAILABLE}{/opt/solr-9.8.0/server/solr-webapp/webapp}
+2025-02-18 18:23:56.825 INFO  (main) [c: s: r: x:] o.e.j.s.RequestLogWriter Opened /var/solr/logs/2025_02_18.request.log
+2025-02-18 18:23:56.827 INFO  (main) [c: s: r: x:] o.e.j.s.AbstractConnector Started ServerConnector@f73dcd6{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:8983}
+2025-02-18 18:23:56.827 INFO  (main) [c: s: r: x:] o.e.j.s.Server Started Server@773f7880{STARTING}[10.0.22,sto=0] @3808ms
+2025-02-18 18:24:06.486 ERROR (coreLoadExecutor-23-thread-1-processing-172.20.0.3:8983_solr) [c:product s:shard1 r:core_node2 x:product_shard1_replica_n1] o.a.s.c.CoreContainer SolrCore product_shard1_replica_n1 in /var/solr/data/product_shard1_replica_n1 is not in cluster state.
+2025-02-18 18:24:06.515 ERROR (coreLoadExecutor-23-thread-1-processing-172.20.0.3:8983_solr) [c:product s:shard1 r:core_node2 x:product_shard1_replica_n1] o.a.s.c.CoreContainer SolrCore failed to load on startup => org.apache.solr.cloud.ZkController$NotInClusterStateException: coreNodeName core_node2 does not exist in shard shard1, ignore the exception if the replica was deleted
+	at org.apache.solr.cloud.ZkController.checkStateInZk(ZkController.java:2065)
+org.apache.solr.cloud.ZkController$NotInClusterStateException: coreNodeName core_node2 does not exist in shard shard1, ignore the exception if the replica was deleted
+	at org.apache.solr.cloud.ZkController.checkStateInZk(ZkController.java:2065) ~[?:?]
+	at org.apache.solr.cloud.ZkController.preRegister(ZkController.java:1961) ~[?:?]
+	at org.apache.solr.core.CoreContainer.createFromDescriptor(CoreContainer.java:1732) ~[?:?]
+	at org.apache.solr.core.CoreContainer.lambda$loadInternal$12(CoreContainer.java:1080) ~[?:?]
+	at com.codahale.metrics.InstrumentedExecutorService$InstrumentedRunnable.run(InstrumentedExecutorService.java:212) ~[metrics-core-4.2.26.jar:4.2.26]
+	at org.apache.solr.common.util.ExecutorUtil$MDCAwareThreadPoolExecutor.lambda$execute$0(ExecutorUtil.java:380) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[?:?]
+	at java.base/java.lang.Thread.run(Unknown Source) [?:?]
+2025-02-18 18:24:14.192 INFO  (qtp1604052588-19-null-2) [c: s: r: x:] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1739903054147} status=0 QTime=11
+2025-02-18 18:24:14.215 INFO  (qtp1604052588-20-null-3) [c: s: r: x:] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1739903054147} status=0 QTime=35
+2025-02-18 18:24:14.232 INFO  (qtp1604052588-27-null-6) [c: s: r: x:] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/collections params={action=LIST&wt=json&_=1739903054147} status=0 QTime=10
+2025-02-18 18:24:14.239 INFO  (qtp1604052588-24-null-7) [c: s: r: x:] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/collections params={action=LISTALIASES&wt=json&_=1739903054147} status=0 QTime=1
+2025-02-18 18:24:32.735 INFO  (JettyShutdownThread) [c: s: r: x:] o.e.j.s.Server Stopped Server@773f7880{STOPPING}[10.0.22,sto=0]
+2025-02-18 18:24:32.739 INFO  (JettyShutdownThread) [c: s: r: x:] o.e.j.s.AbstractConnector Stopped ServerConnector@f73dcd6{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:8983}
+2025-02-18 18:24:32.757 INFO  (JettyShutdownThread) [c: s: r: x:] o.a.s.c.CoreContainer Shutting down CoreContainer instance=1112400678
+2025-02-18 18:24:32.757 INFO  (JettyShutdownThread) [c: s: r: x:] o.a.s.c.ZkController Remove node as live in ZooKeeper:/live_nodes/172.20.0.3:8983_solr
+2025-02-18 18:24:32.770 INFO  (JettyShutdownThread) [c: s: r: x:] o.a.s.c.ZkController Publish this node as DOWN...
+2025-02-18 18:24:32.770 INFO  (JettyShutdownThread) [c: s: r: x:] o.a.s.c.ZkController Publish node=172.20.0.3:8983_solr as DOWN
+2025-02-18 18:24:32.772 INFO  (zkCallback-14-thread-1) [c: s: r: x:] o.a.s.c.c.ZkStateReader Updated live nodes from ZooKeeper... (1) -> (0)
+2025-02-18 18:24:32.782 INFO  (JettyShutdownThread) [c: s: r: x:] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.node tag=null
+2025-02-18 18:24:32.801 INFO  (JettyShutdownThread) [c: s: r: x:] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.jvm tag=null
+2025-02-18 18:24:32.810 INFO  (JettyShutdownThread) [c: s: r: x:] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.jetty tag=null
+2025-02-18 18:24:32.812 INFO  (JettyShutdownThread) [c: s: r: x:] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.cluster tag=null
+2025-02-18 18:24:32.817 INFO  (closeThreadPool-26-thread-1) [c: s: r: x:] o.a.s.c.Overseer Overseer (id=72058674158108673-172.20.0.3:8983_solr-n_0000000000) closing
+2025-02-18 18:24:32.818 INFO  (OverseerStateUpdate-72058674158108673-172.20.0.3:8983_solr-n_0000000000) [c: s: r: x:] o.a.s.c.Overseer Overseer Loop exiting : 172.20.0.3:8983_solr
+2025-02-18 18:24:32.819 INFO  (closeThreadPool-26-thread-2) [c: s: r: x:] o.a.s.c.Overseer Overseer (id=72058674158108673-172.20.0.3:8983_solr-n_0000000000) closing
+2025-02-18 18:24:32.948 INFO  (JettyShutdownThread) [c: s: r: x:] o.a.s.c.Overseer Overseer (id=72058674158108673-172.20.0.3:8983_solr-n_0000000000) closing
+2025-02-18 18:24:32.956 INFO  (JettyShutdownThread) [c: s: r: x:] o.e.j.s.h.ContextHandler Stopped o.e.j.w.WebAppContext@46ab18da{solr-jetty-context.xml,/solr,null,STOPPED}{/opt/solr-9.8.0/server/solr-webapp/webapp}
